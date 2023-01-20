@@ -54,10 +54,10 @@ export const CreateMeterModal: FC<Props> = ({ show, handleClose, query }) => {
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="danger" onClick={handleClose}>
-                        Cancelar
+                        Cancel
                     </Button>
                     <Button variant="primary" type="submit">
-                        Guardar
+                        Create
                     </Button>
                 </Modal.Footer>
             </form>
