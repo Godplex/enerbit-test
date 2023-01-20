@@ -23,7 +23,7 @@ export const InventoryPage = () => {
                 <div className="card-body ">
                     <div className="d-md-flex p-1">
                         <div className="me-auto">
-                            <img src="/mainLogo.bea5a270.svg" alt="logo" style={{ width: 150 }} />
+                            <img src="https://enerbit.co/img/mainLogo.bea5a270.svg" alt="logo" style={{ width: 150 }} />
                         </div>
                         <div>
                             <button className="btn btn-primary w-100" onClick={handleShowCreateMeter}>Add product</button>

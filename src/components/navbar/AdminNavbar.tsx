@@ -17,7 +17,7 @@ export const AdminNavbar = () => {
                     to="/"
                     className="navbar-brand"
                 >
-                    <img src="/mainLogo.bea5a270.svg" alt='logo' style={{ width: 150 }} />
+                    <img src="https://enerbit.co/img/mainLogo.bea5a270.svg" alt='logo' style={{ width: 150 }} />
                 </NavLink>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

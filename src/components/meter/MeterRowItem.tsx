@@ -19,13 +19,14 @@ export const MeterRowItem: FC<Props> = ({ slice, handleShowMeterInfo, handleShow
                             slice.map((meter, index) => (
                                 <tr key={index}>
                                     <th
+                                        className="w-50"
                                         scope="row"
                                         role="button"
                                         onClick={() => handleShowMeterInfo(meter)}
                                     >
                                         {meter.serial}
                                     </th>
-                                    <td>
+                                    <td className="w-50">
                                         <div className="d-flex gap-2 justify-content-center">
                                             <div>
                                                 <button

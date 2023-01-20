@@ -22,7 +22,7 @@ export const LoginPage = () => {
         <div className="min-vh-100 d-flex justify-content-center align-items-center">
             <div className="card col-xl-3 col-lg-4 col-md-6 col-9">
                 <div className="card-body">
-                    <img src="/mainLogo.bea5a270.svg" className="w-100" alt="logo" />
+                    <img src="https://enerbit.co/img/mainLogo.bea5a270.svg" className="w-100" alt="logo" />
                     <form
                         className="p-4"
                         onSubmit={handleSubmit(onLoginUser)}
