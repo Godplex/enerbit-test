@@ -1,0 +1,10 @@
+$primary: #f79009;
+$danger: #53358e;
+
+@import "~bootswatch/dist/lumen/variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootswatch/dist/lumen/bootswatch";
+
+.card-body select {
+  background-image: none !important;
+}
