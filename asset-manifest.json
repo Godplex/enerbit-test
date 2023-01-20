@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/enerbit-test/static/css/main.db0ac455.css",
-    "main.js": "/enerbit-test/static/js/main.24358348.js",
+    "main.js": "/enerbit-test/static/js/main.47eb0f1a.js",
     "static/js/433.df7c0d08.chunk.js": "/enerbit-test/static/js/433.df7c0d08.chunk.js",
     "index.html": "/enerbit-test/index.html",
     "main.db0ac455.css.map": "/enerbit-test/static/css/main.db0ac455.css.map",
-    "main.24358348.js.map": "/enerbit-test/static/js/main.24358348.js.map",
+    "main.47eb0f1a.js.map": "/enerbit-test/static/js/main.47eb0f1a.js.map",
     "433.df7c0d08.chunk.js.map": "/enerbit-test/static/js/433.df7c0d08.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db0ac455.css",
-    "static/js/main.24358348.js"
+    "static/js/main.47eb0f1a.js"
   ]
 }
