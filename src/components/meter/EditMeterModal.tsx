@@ -56,7 +56,6 @@ export const EditMeterModal: FC<Props> = ({ show, handleClose }) => {
             size="xl"
             keyboard={false}
             backdrop="static"
-            scrollable
         >
             <Modal.Header closeButton>
                 <Modal.Title>Meter: {meter!.id}</Modal.Title>

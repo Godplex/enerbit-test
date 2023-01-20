@@ -41,7 +41,6 @@ export const CreateMeterModal: FC<Props> = ({ show, handleClose, query }) => {
             size="xl"
             keyboard={false}
             backdrop="static"
-            scrollable
         >
             <Modal.Header closeButton>
                 <Modal.Title>Create Meter</Modal.Title>

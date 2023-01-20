@@ -32,7 +32,6 @@ export const DeleteMeterModal: FC<Props> = ({ show, handleClose }) => {
             size="sm"
             keyboard={false}
             backdrop="static"
-            scrollable
             centered
         >
             <Modal.Header closeButton>
