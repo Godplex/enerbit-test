@@ -19,7 +19,7 @@ export const TableFooter: FC<Props> = ({ range, setPage, page, slice, setRowsPer
     }, [slice, page, setPage]);
 
     return (
-        <div className="d-md-flex justify-content-between">
+        <div className="d-flex justify-content-between gap-2">
             <div className="btn-group" role="group">
                 <button
                     type="button"
@@ -54,7 +54,7 @@ export const TableFooter: FC<Props> = ({ range, setPage, page, slice, setRowsPer
                     <ChevronDoubleRight />
                 </button>
             </div>
-            <div>
+            <div className="col-lg-1 col-md-2 col-5">
                 <select className="form-select" aria-label="Default select example" onChange={(e) => setRowsPerPage(Number(e.target.value))}>
                     {
                         [5, 10, 25, 50, 100].map((size, index) => (
