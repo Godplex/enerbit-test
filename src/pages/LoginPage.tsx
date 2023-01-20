@@ -35,7 +35,7 @@ export const LoginPage = () => {
                                 className={`form-control ${errors.username && 'is-invalid'}`}
                                 id="exampleInputEmail1"
                                 {...register("username", {
-                                    required: "Este campo es requerido.",
+                                    required: "This field is required.",
                                 })}
                             />
                             {
@@ -53,7 +53,7 @@ export const LoginPage = () => {
                                 className={`form-control ${errors.password && 'is-invalid'}`}
                                 id="exampleInputPassword1"
                                 {...register("password", {
-                                    required: "Este campo es requerido.",
+                                    required: "This field is required.",
                                 })}
                             />
                             {

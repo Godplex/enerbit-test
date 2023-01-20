@@ -16,7 +16,7 @@ export const InputsMeter: FC<Props> = ({ errors, register }) => {
                     className={`form-select ${errors.connection_type ? 'is-invalid' : ''}`}
                     id="connectionType"
                     {...register("connection_type", {
-                        required: "Este campo es requerido.",
+                        required: "This field is required.",
                     })}
                 >
                     {
@@ -40,7 +40,7 @@ export const InputsMeter: FC<Props> = ({ errors, register }) => {
                     className={`form-select ${errors.storage_system ? 'is-invalid' : ''}`}
                     id="storageSystem"
                     {...register("storage_system", {
-                        required: "Este campo es requerido.",
+                        required: "This field is required.",
                     })}
                 >
                     {
@@ -64,7 +64,7 @@ export const InputsMeter: FC<Props> = ({ errors, register }) => {
                     className={`form-select ${errors.condition ? 'is-invalid' : ''}`}
                     id="condition"
                     {...register("condition", {
-                        required: "Este campo es requerido.",
+                        required: "This field is required.",
                     })}
                 >
                     {
@@ -88,7 +88,7 @@ export const InputsMeter: FC<Props> = ({ errors, register }) => {
                     className={`form-select ${errors.owner ? 'is-invalid' : ''}`}
                     id="owner"
                     {...register("owner", {
-                        required: "Este campo es requerido.",
+                        required: "This field is required.",
                     })}
                 >
                     {
@@ -113,7 +113,7 @@ export const InputsMeter: FC<Props> = ({ errors, register }) => {
                     className={`form-control ${errors.serial ? 'is-invalid' : ''}`}
                     id="serial"
                     {...register("serial", {
-                        required: "Este campo es requerido.",
+                        required: "This field is required.",
                     })}
                 />
                 {
@@ -131,7 +131,7 @@ export const InputsMeter: FC<Props> = ({ errors, register }) => {
                     className={`form-control ${errors.location ? 'is-invalid' : ''}`}
                     id="location"
                     {...register("location", {
-                        required: "Este campo es requerido.",
+                        required: "This field is required.",
                     })}
                 />
                 {
@@ -149,7 +149,7 @@ export const InputsMeter: FC<Props> = ({ errors, register }) => {
                     className={`form-control ${errors.purchase ? 'is-invalid' : ''}`}
                     id="purchase"
                     {...register("purchase", {
-                        required: "Este campo es requerido.",
+                        required: "This field is required.",
                     })}
                 />
                 {
@@ -169,8 +169,8 @@ export const InputsMeter: FC<Props> = ({ errors, register }) => {
                     step={0.001}
                     id="iMax"
                     {...register("i_max", {
-                        required: "Este campo es requerido.",
-                        min: "El valor minimo es de cero."
+                        required: "This field is required.",
+                        min: "The minimum value is zero."
                     })}
                 />
                 {
@@ -190,8 +190,8 @@ export const InputsMeter: FC<Props> = ({ errors, register }) => {
                     id="iB"
                     step={0.001}
                     {...register("i_b", {
-                        required: "Este campo es requerido.",
-                        min: "El valor minimo es de cero."
+                        required: "This field is required.",
+                        min: "The minimum value is zero."
                     })}
                 />
                 {
@@ -211,8 +211,8 @@ export const InputsMeter: FC<Props> = ({ errors, register }) => {
                     id="iN"
                     step={0.001}
                     {...register("i_n", {
-                        required: "Este campo es requerido.",
-                        min: "El valor minimo es de cero."
+                        required: "This field is required.",
+                        min: "The minimum value is zero."
                     })}
                 />
                 {
@@ -230,7 +230,7 @@ export const InputsMeter: FC<Props> = ({ errors, register }) => {
                     className={`form-control ${errors.manufacturer ? 'is-invalid' : ''}`}
                     id="manufacturer"
                     {...register("manufacturer", {
-                        required: "Este campo es requerido.",
+                        required: "This field is required.",
                     })}
                 />
                 {
@@ -250,8 +250,8 @@ export const InputsMeter: FC<Props> = ({ errors, register }) => {
                     step={0.001}
                     id="seals"
                     {...register("seals", {
-                        required: "Este campo es requerido.",
-                        min: "El valor minimo es de cero."
+                        required: "This field is required.",
+                        min: "The minimum value is zero."
                     })}
                 />
                 {
