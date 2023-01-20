@@ -1,7 +1,5 @@
 # EnerBit Test
-
 ## _Desarrollado por Juliám Rincón_
-
 Antes de correr la aplicación el sistema de gestor de paquetes es PNPM, asi que se recomienda instalar pnpm de la siguiente manera:
 
 ```sh
@@ -20,4 +18,6 @@ El comando anterior instalara los paquetes necesarios para correr el proyecto, a
 pnpm start
 ```
 
-Con esto se podria empezar con la aplicacion.
+Con esto  se podria empezar con la aplicacion.
+
+Al iniciar la aplicacion, habra una pagina de login donde el usuario y la contraseña son admin/admin para poder ingresar a sus funcionalidades.
