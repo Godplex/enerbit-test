@@ -3,7 +3,8 @@ import { NavLink } from 'react-router-dom';
 import { AuthContext } from '../../context';
 
 let activeStyle: CSSProperties = {
-    borderBottom: "4px solid black"
+    borderBottom: "4px solid #53358e",
+    color: "#53358e"
 };
 
 export const AdminNavbar = () => {
@@ -11,7 +12,7 @@ export const AdminNavbar = () => {
     const { logoutUser } = useContext(AuthContext)
 
     return (
-        <nav className="navbar navbar-expand-lg bg-white">
+        <nav className="navbar navbar-expand-lg bg-white border-danger">
             <div className="container">
                 <NavLink
                     to="/"

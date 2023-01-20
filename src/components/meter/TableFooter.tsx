@@ -54,7 +54,7 @@ export const TableFooter: FC<Props> = ({ range, setPage, page, slice, setRowsPer
                     <ChevronDoubleRight />
                 </button>
             </div>
-            <div className="col-lg-1 col-md-2 col-5">
+            <div className="col-lg-2 col-md-3 col-5">
                 <select className="form-select" aria-label="Default select example" onChange={(e) => setRowsPerPage(Number(e.target.value))}>
                     {
                         [5, 10, 25, 50, 100].map((size, index) => (
