@@ -23,7 +23,7 @@ export const AdminNavbar = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
                         <li className="nav-item me-lg-3">
                             <NavLink
                                 to="/"
@@ -35,9 +35,9 @@ export const AdminNavbar = () => {
                                 Home
                             </NavLink>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item d-grid">
                             <button
-                                className="nav-link btn fw-bold"
+                                className="nav-link btn text-danger fw-bold text-center"
                                 onClick={logoutUser}
                             >
                                 Logout
