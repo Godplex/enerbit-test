@@ -1,5 +1,5 @@
 # EnerBit Test
-## _Desarrollado por Juliám Rincón_
+## _Desarrollado por Julián Rincón_
 Antes de correr la aplicación el sistema de gestor de paquetes es PNPM, asi que se recomienda instalar pnpm de la siguiente manera:
 
 ```sh
