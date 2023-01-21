@@ -55,17 +55,17 @@ export const MeterProvider: FC<PropsWithChildren> = ({ children }) => {
             if (axios.isAxiosError(error)) {
                 if (error.response?.status) {
                     return {
-                        hasError: false,
+                        hasError: true,
                         message: error.response?.data.detail,
                     }
                 }
                 return {
-                    hasError: false,
+                    hasError: true,
                     message: error.response?.data.detail[0].msg,
                 }
             }
             return {
-                hasError: false,
+                hasError: true,
                 message: "Unknown error.",
             }
         }
@@ -83,17 +83,17 @@ export const MeterProvider: FC<PropsWithChildren> = ({ children }) => {
             if (axios.isAxiosError(error)) {
                 if (error.response?.status) {
                     return {
-                        hasError: false,
+                        hasError: true,
                         message: error.response?.data.detail,
                     }
                 }
                 return {
-                    hasError: false,
+                    hasError: true,
                     message: error.response?.data.detail[0].msg,
                 }
             }
             return {
-                hasError: false,
+                hasError: true,
                 message: "Unknown error.",
             }
         }
@@ -111,17 +111,17 @@ export const MeterProvider: FC<PropsWithChildren> = ({ children }) => {
             if (axios.isAxiosError(error)) {
                 if (error.response?.status) {
                     return {
-                        hasError: false,
+                        hasError: true,
                         message: error.response?.data.detail,
                     }
                 }
                 return {
-                    hasError: false,
+                    hasError: true,
                     message: error.response?.data.detail[0].msg,
                 }
             }
             return {
-                hasError: false,
+                hasError: true,
                 message: "Unknown error.",
             }
         }
